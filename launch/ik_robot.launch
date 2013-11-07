@@ -1,0 +1,7 @@
+<launch>
+
+  <!-- This runs the interactive manipulation -->
+
+  <node name="m" pkg="pr2_rviz_ik" type="trajectory_execution.py" output="screen"></node>
+
+</launch>
